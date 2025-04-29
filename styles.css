@@ -1,0 +1,125 @@
+
+.color-example {
+    color: rgb(122, 4, 85); 
+    background-color: #f4cc3d; 
+    border: 2px solid rgb(139, 0, 0); 
+}
+
+
+.header-example {
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(18, 24, 18);
+}
+
+
+.list-example {
+    list-style-type: square; 
+    color: darkred;
+}
+
+
+.text-example {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+.div-example {
+    background-color: #d3d3d3;
+    border: 3px dashed gray;
+    padding: 10px;
+}
+/* Taustaväri tai -kuva */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigointilinkin sijoittaminen ylävasempaan */
+.nav-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #dfefff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Otsikoiden reunat */
+h1, h2 {
+    border: 2px solid #888;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Kappale-elementti */
+p {
+    background-color: #e0ffe0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Kuvan tyyli (valinnainen) */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Figure elementin muotoilu */
+figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Keskitä koko sivu */
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Headerin tyyli */
+#header {
+    background-color: #4CAF50; /* vihreä */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigoinnin tyyli */
+#nav {
+    background-color: #2196F3; /* sininen */
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Sisältöalueen tyyli */
+#section {
+    background-color: #ffeb3b; /* keltainen */
+    padding: 20px;
+    margin-top: 10px;
+}
